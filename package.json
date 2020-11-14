@@ -1,0 +1,17 @@
+{
+  "name": "acklenavenuetest",
+  "version": "1.0.0",
+  "description": "Automated Test Parking Cost Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Jeraldine Cordoba",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
