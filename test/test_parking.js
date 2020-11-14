@@ -1,12 +1,13 @@
 const assert = require("chai").assert;
-
+var index = require("../index")
 
 describe("Test for valet parking", () => {
-    it("Test two hours cost is $18.00", ()=> {
+    it("Test two hours cost is $18.00", async ()=> {
         // arrange
+        let cost = await index.calculateParkCost("Valet");
         //act
         //assert
-        assert.equal(5,5);
+        assert.equal(cost, "$ 12.00");
     });
 
     it("Test six hours cost is $18.00", ()=> {
